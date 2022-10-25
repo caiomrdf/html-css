@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px;
+}
+h1 {
+    color: #a52a2a;
+}
+h2 {
+    color: #8a2be2;
+}
+p {
+    font-family: 'Times New Roman', Times, serif; color: rgb(221, 13, 93);
+}
