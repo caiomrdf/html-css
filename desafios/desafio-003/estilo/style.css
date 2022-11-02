@@ -1,56 +1,103 @@
 @charset "UTF-8";
 
+@import url(https://fonts.googleapis.com/css?family=Amita:regular,700);
+
+@import url(https://fonts.googleapis.com/css?family=Anton:regular);
 
 *{
     margin: 0px;
     padding: 0px;
 }
 
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 80px 0px;
+}
+header h1{
+    font-family: Anton, Arial, Helvetica, sans-serif;
+    font-size: 85px;
+}
+
+header p{
+    font-size: 20px;
+    color: white;
+}
+
+header a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}    
+
+header a:hover{
+    text-decoration: underline;
+    color: blue;
+
+}
+
 article{
     background-color: grey;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
+    font-family: Amita, Arial, Helvetica, sans-serif;
 }
 
 h1#a1{
     background-color: white;
+    padding: 85px 30px;
 }
 h1#a2{
     background-image: url(imagens/background001.jpg);
-    background-position: center top;
+    background-position: center center;
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: fixed;
-    padding: 100px 0px;
+    padding: 85px 30px;
 }
 h1#a2 p{
     display: inline-block;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
+    padding: 10px;
 
 }
 h1#a3{
     background-color: white;
+    padding: 85px 30px;
 }
 h1#a4{
     background-image: url(imagens/background002.jpg);
-    background-position: center top;
+    background-position: center center;
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: fixed;
+    padding: 85px 30px;
+}
+h1#a4 p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.482);
+    color: white;
+    padding: 10px;
 }
 h1#a5{
     background-color: white;
+    padding: 85px 30px;
 }
 
 footer{
     text-align: center;
     padding: 0.5em;
     background-color: black;
+    text-decoration: none;
+    color: white
 }
 
-footer h3{
+footer a{
     color: white;
+    text-decoration: none;
 }
 footer a:hover{
+    text-decoration: underline;
     color: blue;
 }
