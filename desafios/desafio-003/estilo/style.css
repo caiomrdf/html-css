@@ -1,5 +1,56 @@
 @charset "UTF-8";
 
-h1#1{
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+article{
+    background-color: grey;
+    font-size: 3.5vw;
+}
+
+h1#a1{
+    background-color: white;
+}
+h1#a2{
     background-image: url(imagens/background001.jpg);
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px;
+}
+h1#a2 p{
+    display: inline-block;
+    background-color: black;
+    color: white;
+
+}
+h1#a3{
+    background-color: white;
+}
+h1#a4{
+    background-image: url(imagens/background002.jpg);
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1#a5{
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 0.5em;
+    background-color: black;
+}
+
+footer h3{
+    color: white;
+}
+footer a:hover{
+    color: blue;
 }
